@@ -1,0 +1,4 @@
+mutation($id:Int!)
+{
+	SendJob(id:$id)
+}
